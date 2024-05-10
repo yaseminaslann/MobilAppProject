@@ -2,14 +2,20 @@ package com.example.mobilproje.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.CompositePageTransformer;
 import androidx.viewpager2.widget.MarginPageTransformer;
+
 
 import com.example.mobilproje.Adapter.CategoryAdapter;
 import com.example.mobilproje.Adapter.PopularAdapter;
@@ -17,11 +23,13 @@ import com.example.mobilproje.Adapter.SliderAdapter;
 import com.example.mobilproje.Domain.CategoryDomain;
 import com.example.mobilproje.Domain.ItemsDomain;
 import com.example.mobilproje.Domain.SliderItems;
+import com.example.mobilproje.R;
 import com.example.mobilproje.databinding.ActivityMainBinding;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.ValueEventListener;
+
 
 import java.util.ArrayList;
 
@@ -38,6 +46,26 @@ public class MainActivity extends BaseActivity {
         initCategory();
         initPopular();
         bottomNavigation();
+
+        final DrawerLayout drawerLayout = findViewById(R.id.drawerLayout);
+        findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                drawerLayout.openDrawer(GravityCompat.START);
+            }
+        });
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+
+        setSupportActionBar(toolbar);
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = new MenuInflater(this);
+        menuInflater.inflate(R.menu.settings_menu, menu);
+        return true;
     }
 
     private void bottomNavigation() {

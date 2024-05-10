@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/person"
+        android:title="Profil" />
+
+
+
+    <item
+        android:id="@+id/menuMan"
+        android:icon="@drawable/man"
+        android:title="Erkek"/>
+
+    <item
+        android:id="@+id/menuWoman"
+        android:icon="@drawable/woman"
+        android:title="Kadın" />
+
+    <item
+        android:id="@+id/menuChild"
+        android:icon="@drawable/child"
+        android:title="Çocuk" />
+
+
+    <item
+        android:id="@+id/menuOutlet"
+        android:icon="@drawable/discount"
+        android:title="Outlet" />
+
+
+</menu>
