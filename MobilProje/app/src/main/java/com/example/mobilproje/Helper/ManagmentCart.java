@@ -68,5 +68,6 @@ public class ManagmentCart {
 
 
     public void insertItem(ItemsDomain object) {
+        insertFood(object);
     }
 }

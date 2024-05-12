@@ -82,7 +82,7 @@ public class DetailActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 object.setNumberinCart(numberOrder);
-                managmentCart.insertItem(object);
+                managmentCart.insertFood(object);
             }
         });
         binding.backBtn.setOnClickListener(new View.OnClickListener() {
@@ -144,7 +144,7 @@ public class DetailActivity extends BaseActivity {
 
         @Override
         public CharSequence getPageTitle(int position){
-            return  mFragmentTitleList.get(position);
+            return mFragmentTitleList.get(position);
         }
     }
 }
