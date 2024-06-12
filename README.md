@@ -34,5 +34,8 @@ Proje başlangıcında Firebase veritabanı proje içerisine entegre edilmiştir
   
 - **Sepet Sayfası**: Kullanıcıların alışveriş sepetlerini düzenlemelerini ve ödeme işlemlerini tamamlamalarını sağlar. Sepet sayfasının backend işlevselliği eklenmiştir, kullanıcıların sepetlerindeki ürünleri güncelleyebilmeleri ve tutar işlemlerini tamamlayabilmeleri için gerekli işlemler entegre edilmiştir.
 
+## Uygulama Çıktıları
+
+![image](https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/3bd1b0e2-db12-4c0a-a858-ddbb454f66ba)
 
 
