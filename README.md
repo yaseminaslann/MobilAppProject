@@ -36,10 +36,14 @@ Proje başlangıcında Firebase veritabanı proje içerisine entegre edilmiştir
 
 ## Uygulama Çıktıları
 
-![1](https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/7b2af3bc-4dea-4c86-b18c-3dd6a04f55bf)
-![2](https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/d9ce35b6-8c45-4d97-9791-78100be7851b)
-![3](https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/8983bc33-6487-4ade-a5ba-6c2604300d37)
-![4](https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/e2e0bbfc-caf1-4eef-b221-930fe77ce2d1)
+<img width="202" alt="image" src="https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/013c7bc1-028a-4601-8040-ebc52bd8ac66">
+<img width="202" alt="image" src="https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/decab0f7-f24f-4fdd-9fab-69815bd78d81">
+<img width="202" alt="image" src="https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/98f6239f-3a84-4164-9bbc-9783865ab5fb">
+<img width="202" alt="image" src="https://github.com/yaseminaslann/OnlineShopAppProject/assets/96794119/8fa9832e-74d6-4c10-b02b-f2534b80997c">
+
+
+
+
 
 
 
